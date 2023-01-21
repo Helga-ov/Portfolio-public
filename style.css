@@ -1,0 +1,155 @@
+body {
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+}
+.name {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9139005944174545) 19%,
+    rgba(145, 144, 144, 1) 100%
+  );
+  height: 850px;
+}
+
+h1 {
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  padding-top: 260px;
+}
+h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.button1 {
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(123, 123, 123);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 200ms ease;
+  width: 230px;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.button1:hover {
+  color: #fff;
+  background: rgb(190, 96, 96);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 15px;
+  padding: 15px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+p {
+  font-size: 20px;
+  color: #fff;
+  text-align: justify;
+}
+.p1 {
+  font-size: 30px;
+  color: #fff;
+}
+.black {
+  color: black;
+}
+
+.typing {
+  overflow: hidden;
+  border-right: 0.2em solid rgb(233, 133, 106);
+  white-space: nowrap;
+  animation: typing 5s steps(200, end) forwards;
+  width: 0;
+  animation-iteration-count: infinite;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(190, 96, 96);
+  text-decoration: underline;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+.email:hover {
+  color: rgb(190, 96, 96);
+  text-decoration: underline;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+i {
+  color: #fff;
+  font-size: 50px;
+}
+i:hover {
+  color: rgb(190, 96, 96);
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: calc(3.125rem + ((1vw - 3.2px) * 7.0707));
+    min-height: 0vw;
+  }
+  h2 {
+    font-size: calc(1.125rem + ((1vw - 3.2px) * 1.8182));
+    min-height: 0vw;
+  }
+  .typing {
+    font-size: calc(1.875rem + ((1vw - 3.2px) * 2.0202));
+    min-height: 0vw;
+  }
+  .name {
+    height: calc(53.125rem + ((1vw - 3.2px) * -10.582));
+    min-height: 0vw;
+  }
+}
+@media (min-width: 1265px) {
+  h1 {
+    font-size: 120px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .typing {
+    font-size: 50px;
+  }
+  .name {
+    height: 750px;
+  }
+}
